@@ -1,7 +1,7 @@
 //Search
 
 		// Rendering
-		int							m_iRenderMode;
+		int						m_iRenderMode;
 		D3DXCOLOR					m_AddColor;
 		float						m_fAlphaValue;
 
