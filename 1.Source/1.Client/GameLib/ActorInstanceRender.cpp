@@ -14,7 +14,6 @@ BOOL CActorInstance::IsGhostWeapon()
 		case 299:
 		case 19:
 			return TRUE;
-			break;
 	}
 	return FALSE;
 }
