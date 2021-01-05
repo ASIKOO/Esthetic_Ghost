@@ -35,12 +35,8 @@ void CActorInstance::BeginDiffuseRender()
 //modify last line with
 
 #ifdef ENABLE_GHOST_MODE
-
 	(STATEMANAGER.SaveRenderState(D3DRS_ALPHABLENDENABLE, IsGhostWeapon()));
-
 #else
-
 	STATEMANAGER.SaveRenderState(D3DRS_ALPHABLENDENABLE, FALSE);
-
 #endif
 }
